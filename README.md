@@ -4,17 +4,13 @@
 
 ## 線上閱讀
 
-- 首頁（第 3 期）：https://oberonlai.github.io/wp-taiwan-weekly/
-- 第 3 期固定路徑：https://oberonlai.github.io/wp-taiwan-weekly/issues/003.html
+- 期數列表：https://oberonlai.github.io/wp-taiwan-weekly/
+- 第 1 期：https://oberonlai.github.io/wp-taiwan-weekly/issues/001.html
+- 第 2 期：https://oberonlai.github.io/wp-taiwan-weekly/issues/002.html
+- 第 3 期：https://oberonlai.github.io/wp-taiwan-weekly/issues/003.html
 
 ## 內容來源
 
+- `content/issue-001.md`
+- `content/issue-002.md`
 - `content/issue-003.md`
-
-## 本機預覽
-
-直接開 `index.html`，或：
-
-```bash
-python3 -m http.server 8080
-```
