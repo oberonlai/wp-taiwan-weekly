@@ -1,0 +1,127 @@
+
+:root {
+  --bg: #f7f5f1;
+  --paper: #ffffff;
+  --ink: #1a1a1a;
+  --muted: #5c5c5c;
+  --line: #e6e1d8;
+  --accent: #21759b;
+  --accent-soft: #e8f3f8;
+  --card: #fffcf8;
+  --shadow: 0 1px 2px rgba(26,26,26,.04), 0 8px 24px rgba(26,26,26,.06);
+  --radius: 14px;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --sans: "Noto Sans TC", "PingFang TC", "Hiragino Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--sans);
+  color: var(--ink);
+  background:
+    radial-gradient(1200px 600px at 10% -10%, #d7ecf5 0%, transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, #f3e7d7 0%, transparent 50%),
+    var(--bg);
+  line-height: 1.75;
+}
+a { color: var(--accent); text-underline-offset: 3px; }
+a:hover { color: #155d7a; }
+.wrap { width: min(760px, calc(100% - 2rem)); margin: 0 auto; }
+.site-header {
+  position: sticky; top: 0; z-index: 20;
+  backdrop-filter: blur(12px);
+  background: rgba(247,245,241,.82);
+  border-bottom: 1px solid var(--line);
+}
+.site-header .inner {
+  width: min(980px, calc(100% - 2rem));
+  margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1rem; padding: .85rem 0;
+}
+.brand { display: flex; flex-direction: column; gap: .15rem; }
+.brand strong { font-size: 1.05rem; letter-spacing: .02em; }
+.brand span { font-size: .85rem; color: var(--muted); }
+.badge {
+  display: inline-flex; align-items: center; gap: .4rem;
+  background: var(--accent-soft); color: var(--accent);
+  border: 1px solid #c7e0eb; border-radius: 999px;
+  padding: .35rem .75rem; font-size: .82rem; font-weight: 600;
+  white-space: nowrap;
+}
+.hero {
+  width: min(980px, calc(100% - 2rem));
+  margin: 2rem auto 1.5rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: calc(var(--radius) + 4px);
+  box-shadow: var(--shadow);
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+}
+.hero .kicker {
+  display: inline-block; font-size: .8rem; font-weight: 700;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--accent);
+  margin-bottom: .75rem;
+}
+.hero h1 {
+  margin: 0 0 .75rem; font-size: clamp(1.7rem, 4vw, 2.4rem);
+  line-height: 1.25; letter-spacing: -.01em;
+}
+.hero .meta { color: var(--muted); margin: 0 0 1rem; }
+.hero .lede { margin: 0; font-size: 1.05rem; }
+.layout {
+  width: min(980px, calc(100% - 2rem));
+  margin: 0 auto 3rem;
+  display: grid; gap: 1.25rem;
+  grid-template-columns: 220px 1fr;
+}
+@media (max-width: 860px) {
+  .layout { grid-template-columns: 1fr; }
+  .toc { position: static !important; }
+}
+.toc {
+  position: sticky; top: 4.5rem; align-self: start;
+  background: var(--paper); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 1rem;
+  box-shadow: var(--shadow);
+}
+.toc h2 { margin: 0 0 .6rem; font-size: .9rem; color: var(--muted); font-weight: 700; }
+.toc ol { margin: 0; padding: 0 0 0 1.1rem; }
+.toc li { margin: .35rem 0; }
+.toc a { text-decoration: none; color: var(--ink); font-size: .92rem; }
+.toc a:hover { color: var(--accent); }
+.main { min-width: 0; }
+.section {
+  background: var(--paper); border: 1px solid var(--line);
+  border-radius: var(--radius); box-shadow: var(--shadow);
+  padding: 1.25rem clamp(1rem, 3vw, 1.5rem) 1.4rem;
+  margin-bottom: 1.1rem;
+}
+.section > h2 {
+  margin: 0 0 1rem; font-size: 1.35rem;
+  padding-bottom: .6rem; border-bottom: 2px solid var(--accent-soft);
+}
+.card {
+  background: var(--card); border: 1px solid var(--line);
+  border-radius: 12px; padding: 1rem 1.05rem; margin: .85rem 0;
+}
+.card h3 { margin: 0 0 .45rem; font-size: 1.08rem; line-height: 1.4; }
+.card p { margin: .45rem 0; color: #2a2a2a; }
+.card p code, .section code {
+  font-family: var(--mono); font-size: .88em;
+  background: #f0ebe3; padding: .1em .35em; border-radius: 4px;
+}
+.links { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: .7rem; }
+.links a {
+  text-decoration: none; font-size: .86rem; font-weight: 600;
+  background: var(--accent-soft); color: var(--accent);
+  border: 1px solid #c7e0eb; border-radius: 999px;
+  padding: .28rem .7rem;
+}
+.links a:hover { background: #d7ebf4; }
+.site-footer {
+  width: min(980px, calc(100% - 2rem));
+  margin: 0 auto 2.5rem; color: var(--muted); font-size: .88rem;
+  border-top: 1px solid var(--line); padding-top: 1.25rem;
+}
