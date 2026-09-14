@@ -27,7 +27,6 @@ body {
 }
 a { color: var(--accent); text-underline-offset: 3px; }
 a:hover { color: #155d7a; }
-.wrap { width: min(760px, calc(100% - 2rem)); margin: 0 auto; }
 .site-header {
   position: sticky; top: 0; z-index: 20;
   backdrop-filter: blur(12px);
@@ -40,9 +39,15 @@ a:hover { color: #155d7a; }
   display: flex; align-items: center; justify-content: space-between;
   gap: 1rem; padding: .85rem 0;
 }
-.brand { display: flex; flex-direction: column; gap: .15rem; }
+.brand { display: flex; flex-direction: column; gap: .15rem; text-decoration: none; color: inherit; }
 .brand strong { font-size: 1.05rem; letter-spacing: .02em; }
 .brand span { font-size: .85rem; color: var(--muted); }
+.nav-links { display: flex; gap: .6rem; flex-wrap: wrap; }
+.nav-links a {
+  text-decoration: none; font-size: .86rem; font-weight: 600;
+  color: var(--accent); background: var(--accent-soft);
+  border: 1px solid #c7e0eb; border-radius: 999px; padding: .28rem .7rem;
+}
 .badge {
   display: inline-flex; align-items: center; gap: .4rem;
   background: var(--accent-soft); color: var(--accent);
@@ -120,6 +125,22 @@ a:hover { color: #155d7a; }
   padding: .28rem .7rem;
 }
 .links a:hover { background: #d7ebf4; }
+.issue-grid {
+  width: min(980px, calc(100% - 2rem));
+  margin: 0 auto 3rem;
+  display: grid; gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+.issue-card {
+  display: block; text-decoration: none; color: inherit;
+  background: var(--paper); border: 1px solid var(--line);
+  border-radius: var(--radius); box-shadow: var(--shadow);
+  padding: 1.25rem 1.3rem; transition: transform .15s ease, border-color .15s ease;
+}
+.issue-card:hover { transform: translateY(-2px); border-color: #c7e0eb; }
+.issue-card .num { color: var(--accent); font-weight: 800; font-size: .85rem; letter-spacing: .08em; }
+.issue-card h2 { margin: .35rem 0 .5rem; font-size: 1.2rem; }
+.issue-card p { margin: 0; color: var(--muted); font-size: .95rem; }
 .site-footer {
   width: min(980px, calc(100% - 2rem));
   margin: 0 auto 2.5rem; color: var(--muted); font-size: .88rem;
