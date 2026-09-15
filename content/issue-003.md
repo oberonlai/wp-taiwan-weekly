@@ -73,6 +73,25 @@ NVD／Patchstack：**CVE-2026-19949**（Wordfence CNA 標 CVSS 8.8）。還原�
 
 ---
 
+## 台灣站務與活動
+
+### 【9/15】WordPress 彩虹小聚｜有 AI 當隊友，英文為什麼還是不敢開口
+台北 CollaPlay，18:30–21:20，免費。主題偏 AI 輔助英文學習系統與 Prompt，含閃電講與交流。
+
+→ [Meetup](https://www.meetup.com/taipei-wordpress/events/315900542/)
+
+### 【9/20】WordPress 新手工作坊 @ 雷神昇彩創客基地
+13:00–17:00，台北萬華漢中街；李小胖 WordPress 101；場地費 **300 元**。
+
+→ [Meetup](https://www.meetup.com/taipei-wordpress/events/316278822/)
+
+### 【9/29】WordPress 台北小聚 @ CollaPlay
+講題「WebMCP：讓 AI 知道你的網站可以怎麼操作」。19:00–22:00。
+
+→ [Meetup](https://www.meetup.com/taipei-wordpress/events/316309009/)
+
+---
+
 ## 在地工作室部落格
 
 ### Weebly 搬家到 WordPress：六步驟流程
