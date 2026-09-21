@@ -153,4 +153,48 @@ NitroPack 無條件送 no-cache，邊緣快取失效；提醒查 response header
 
 ---
 
+## 職缺（近 7 日）
+
+### 104｜WordPress網頁設計師（陽信開發）
+新竹市；月薪 35,000 元以上。負責官方網站 WordPress 架站、版型設計、日常維護與內容更新，主題／外掛設定除錯、SEO、安全備份；另需購物車、金流串接與會員系統經驗。（頁面更新日期 09/16）
+
+→ [職缺](https://www.104.com.tw/job/8wp5a)
+
+### 104｜Wordpress 網站設計師（摩新國際科技）
+台北內湖；月薪 45,000～50,000 元。以 WordPress 做內容調整、既有站維護更新與 RWD，並協助 SEO；職務亦列 HTML／CSS／JavaScript／PHP、GA。（頁面更新日期 09/14）
+
+→ [職缺](https://www.104.com.tw/job/8flu9)
+
+### 104｜SEO 數位行銷工程師・WordPress 專家（好樂購家具）
+台中北屯；月薪 42,000～45,000 元。家具官網 WordPress 維護、外掛整合與行動端效能；Schema／GA4／GTM／Search Console；需能獨立處理 Elementor 與 CSS 微調。（頁面更新日期 09/15）
+
+→ [職缺](https://www.104.com.tw/job/8zn18)
+
+### 104｜WordPress 網頁設計師（默聲創意・部分遠端）
+台北內湖；月薪 45,000～52,000 元。網站架構與頁面設計，使用 WordPress 主題／區塊編輯器製作客製版型，並處理 HTML／CSS、UI／RWD 優化。（頁面更新日期 09/18）
+
+→ [職缺](https://www.104.com.tw/job/8l2oe)
+
+### 104｜WordPress 網頁設計師／美編（弘琦）
+台北內湖；月薪 45,000～48,000 元。WordPress＋Elementor 建構與維護站點，含 RWD、內容更新、版面優化與基本除錯；亦含 Banner／行銷圖檔。（頁面更新日期 09/15）
+
+→ [職缺](https://www.104.com.tw/job/9574l)
+
+### 1111｜美編人員／網站小編／設計人員（遠龍國際旅行社）
+台北中山；月薪 35,000～40,000 元。WordPress 架站、套版與外掛（含 WooCommerce）、商品上下架；金物流維運（LINE Pay、街口、綠界）及自媒體營運。（頁面日期 09/19）
+
+→ [職缺](https://www.1111.com.tw/job/98704682/)
+
+### 1111｜台中班・網頁設計師（伊美美容教育機構）
+台中中區；月薪 32,000～40,000 元。公司 WordPress 網站設計與維護、UI／UX 規劃，並以 HTML／CSS 實作；亦協助廣告文宣素材。（頁面日期 09/15）
+
+→ [職缺](https://www.1111.com.tw/job/130449558/)
+
+### 1111｜行銷企劃（瀚樺生物技術）
+台北中山；月薪 38,000～45,000 元。產品／通路行銷企劃為主，工作含官網 WordPress 維護管理、視覺與編輯美化，以及 FB／IG／LINE 文案圖片。（頁面日期 09/21）
+
+→ [職缺](https://www.1111.com.tw/job/103913379/)
+
+---
+
 *《WP 台灣週報》獨立研究一手來源出刊。線上目錄：https://oberonlai.github.io/wp-taiwan-weekly/*
