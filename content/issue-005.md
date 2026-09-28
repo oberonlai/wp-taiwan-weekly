@@ -61,6 +61,11 @@
 
 → [OpenCVE](https://www.opencve.io/cve/CVE-2026-87902)
 
+### Elementor 4.3.0／4.3.1：CSRF（CVE-2026-62062）
+Patchstack：**CVE-2026-62062**（CVSS **8.8**）。**Elementor Website Builder** **4.3.0–4.3.1** 存在跨站請求偽造；成功利用需誘使已登入的特權使用者點擊惡意連結或造訪特製頁。請升級至 **4.3.2+**。
+
+→ [Patchstack](https://patchstack.com/database/wordpress/plugin/elementor/vulnerability/wordpress-elementor-website-builder-plugin-4-3-1-cross-site-request-forgery-csrf-vulnerability)
+
 ### Addify Request a Quote ≤2.9.2：未授權任意檔案上傳（CVE-2026-18143）
 Addify **Request a Quote for WooCommerce** ≤**2.9.2**，公開報價 popup 流程缺少副檔名／MIME 驗證，未授權者可上傳可執行檔（CVSS **9.8 Critical**）。OpenCVE（9/26）稱暫無廠商修補；若有使用請停用該公開 popup、禁止上傳目錄執行 PHP，並追蹤＞2.9.2 修補版。
 
